@@ -35,4 +35,4 @@ RUN chown -R jenkins:jenkins /opt/maven
 # remove download archive files
 RUN apt-get clean
 
-USER jenkins
+# USER jenkins
